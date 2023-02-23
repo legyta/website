@@ -1,6 +1,6 @@
 {
   "name": "website",
-  "homepage": "https://legyta.github.io",
+  "homepage": "https://legyta.github.io/legyta-web",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
