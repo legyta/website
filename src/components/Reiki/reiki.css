@@ -1,0 +1,86 @@
+.reiki-intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    font-size: 1.2rem;
+    font-family: "Barlow Condensed", sans-serif;
+    background: #FFF0F3;
+ }
+
+ .reiki-image{
+    width: 100%;
+    background: #FFF0F3;
+  
+}
+
+.reiki-drawing-image {
+    rotate: 90deg;
+    width: 600px;
+    margin-top: -80px;
+    margin-bottom: -380px;
+  }
+ 
+  .reiki-drawing-image-bottom {
+     rotate: 270deg;
+     width: 600px;
+     margin-top: -400px;    
+     margin-bottom: -90px;
+ }
+ 
+
+
+
+@media screen and (min-width: 375px) and (max-width: 666px) {
+    .reiki-drawing-image {
+     width: 160px;
+     height: 340px;
+     margin-top: 10px;
+      }
+      
+      .reiki-drawing-image-bottom {
+         height: 220px;
+     margin-top: -100px;
+     margin-bottom: -20px;        
+      }
+ }
+ 
+ @media screen and (min-width: 667px) and (max-width: 767px) {
+    .reiki-drawing-image {
+       width: 400px;
+       margin-top: 0px;
+    }
+ 
+    .reiki-drawing-image-bottom {
+       width: 400px;
+       margin-top: -280px;
+       margin-bottom: -120px;
+    }
+ }
+ 
+ @media screen and (min-width: 768px) and (max-width: 1023px) {
+   
+    .reiki-drawing-image{
+       width: 400px;
+       margin-bottom: -320px;
+       margin-top: -60px;   }
+ 
+    .reiki-drawing-image-bottom {
+       width: 400px;
+       margin-top: -240px;
+       margin-bottom: -60px;   }
+ }
+ 
+ @media screen and (min-width: 1024px) and (max-width: 1025px) {
+    .reiki-drawing-image{
+       width: 500px;
+       margin-bottom: -320px;
+    }
+ 
+    .reiki-drawing-image-bottom {
+       width: 500px;
+       margin-top: -320px;
+       margin-bottom: -60px;
+    }
+ }

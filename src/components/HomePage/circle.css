@@ -1,0 +1,157 @@
+.circle {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.circle a {
+    margin: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+
+.middle-one-circle {
+    background: #FF4D6D ;
+    border-radius: 70%;
+    width: 8vw;
+    height: 8vw;
+    display: flex;
+    flex: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-two-circles {
+    background:linear-gradient(40deg, #FFCCD5 10%, #A4133C 30%, #FFCCD5 50%, #590D22 100%);
+    border-radius: 70%;
+    width: 15vw;
+    height: 15vw;
+    display: flex;
+    flex: none;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px;
+    }
+
+.left-circles :hover {    
+    background: #A4133C;
+}
+.right-circles :hover {
+    background: #A4133C;
+}
+
+.right-two-circles {
+    background:linear-gradient(120deg, #FFCCD5 10%, #A4133C 30%, #FFCCD5 50%, #590D22 100%);
+    border-radius: 70%;
+    width: 15vw;
+    height: 15vw;
+    display: flex;
+    flex: none;
+    align-items: right;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.right-circles{
+    display: flex;
+    align-items: right;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.left-circles{
+    display: flex;
+    align-items: right;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.middle-circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+@media screen and (min-width: 1601px) {
+   
+  }
+  
+  @media screen and (min-width: 1024px) and (max-width: 1025px) {
+    .left-two-circles {
+        width: 20vw;
+       height: 20vw;
+   }
+
+   .right-two-circles {
+       width: 20vw;
+      height: 20vw;
+  }
+
+  .middle-one-circle {
+    width: 10vw;
+    height: 10vw;
+   }
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    .left-two-circles {
+       width: 25vw;
+       height: 25vw;
+   }
+
+   .right-two-circles {
+       width: 25vw;
+      height: 25vw;
+  }
+
+  .middle-one-circle {
+    width: 15vw;
+    height: 15vw;
+   }
+  }
+  
+  @media screen and (min-width: 667px) and (max-width: 767px) {
+    .left-two-circles {
+        width: 20vw;
+       height: 20vw;
+   }
+
+   .right-two-circles {
+       width: 20vw;
+      height: 20vw;
+  }
+
+  .middle-one-circle {
+    width: 10vw;
+    height: 10vw;
+   }
+   
+  }
+  
+  @media screen and (min-width: 375px) and (max-width: 666px) {
+    .left-two-circles {
+        width: 30vw;
+        height: 30vw;
+    }
+
+    .right-two-circles {
+        width: 30vw;
+        height: 30vw;
+   }
+
+   .middle-one-circle {
+    width: 10vw;
+    height: 10vw;
+   }
+ 
+   .circle {
+    margin-bottom: 180px;
+   }
+  }

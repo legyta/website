@@ -1,0 +1,465 @@
+
+    .contact {
+      margin: 0px 0px;
+      background-color: #FFF0F3;
+    }
+  
+    .contact-info {
+      margin: 0px 20px;
+      display: flex;
+      flex-direction: row;
+      justify-content: left;
+      font-family: "Barlow Condensed", sans-serif;
+    }
+  
+    .call-button-form{
+      justify-content: left;
+      margin-left: 160px;
+    }
+
+    .call-button-form .button{
+      width: 15%;
+    }
+
+    .contact-info h1 {
+      font-size: 1.2rem;
+      margin: 10px;
+      color: #000;
+    }
+  
+    .contact-info p {
+      margin: 10px;
+      font-size: 1.2rem;
+      color: #000;
+    }
+  
+    .contact-phone {
+      display: flex;
+      flex-direction: row;
+    }
+  
+    .contact-phone-email {
+      margin-top: 20px;
+    }
+    /* .contact-phone img {
+      height: 15%;
+      width: 15%;
+      transform: rotate(0deg);
+      margin-right: 20px;
+    } */
+    .contact-email {
+      display: flex;
+      flex-direction: row;
+    }
+  
+    /* .contact-email img {
+      height: 15%;
+      width: 15%;
+      transform: rotate(270deg);
+      margin-right: 20px;
+    } */
+  
+    .contact-image {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0px 0px;
+    }
+  
+    .contact-quote-image {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      margin-left: 40px;
+    }
+  
+    /* img {
+      width: 30%;
+      height: 30%;
+    } */
+  
+    .contact-quote p {
+      margin: 20px;
+      font-size: 1.2rem;
+      color: grey;
+    }
+  
+    .button-clients {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .button-clients button {
+      margin: 10px;
+      font-family: 1.5rem;
+      font-size: 1.2rem;
+      color: grey;
+      padding: 5px;
+      width: 50%;
+      box-sizing: border-box;
+      border-width: 0.3vw;
+      border-style: solid;
+      border-radius: 20px;
+      transition: opacity 0.6s ease-out 0.6s;
+      background: linear-gradient(
+        40deg,
+        #fcf8f8 10%,
+        #ffd600 30%,
+        #fcf8f8 50%,
+        #47802b 100%
+      );
+    }
+
+      .button-clients button :hover {
+        color: grey;
+        transition: 0.5s;
+        background: linear-gradient(
+          40deg,
+          #47802b 10%,
+          #fcf8f8 30%,
+          #ffd600 50%,
+          #fcf8f8 100%
+        );
+      }
+    
+  
+    .button-clients button a {
+      text-decoration: none;
+      color: grey;
+    }
+  
+    .contact-footer {
+      margin-top: 20px;
+    }
+  
+  
+  @media screen and (min-width: 1601px) {
+    
+      .contact-info {
+        margin: 20px 40px;
+      }
+
+      .contact-info p {
+        margin-top: 60px;
+        font-size: 1.6rem;
+      }
+  
+      .contact-quote-image {
+        width: 20%;
+        margin: 40px 90px;
+      }
+  
+     
+      .button-clients button {
+        width: 15%;
+      }
+  
+      .contact-footer {
+        margin-top: 90px;
+      }
+    
+  }
+
+
+   
+   @media screen and (min-width: 1200px) and (max-width: 1600px) {
+    
+      .contact-info {
+        margin: 20px 40px;
+      }
+  
+            .contact-info p {
+        margin-top: 80px;
+        font-size: 1.2rem;
+      }
+  
+      .contact-quote {
+        width: 94%;
+      }
+  
+      .button-clients button {
+        width: 15%;
+      }
+  
+      .contact-footer {
+        margin-top: 12px;
+      }
+    
+  } 
+  
+   @media screen and (min-width: 1024px) and (max-width: 1200px) {
+  
+      .contact-info {
+        margin: 20px 40px;
+      }
+      
+      .button-clients button {
+        width: 20%;
+      }
+
+      .call-button-form{
+        justify-content: left;
+        margin-left: 80px;
+      }
+  
+    .call-button-form .button{
+        width: 30%;
+      }
+      
+      .contact-footer {
+        margin-top: 20px;
+      }
+    
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    
+    .contact-info {
+      margin: 40px;
+    }
+
+      .contact-footer {
+        margin-top: 309px;
+      }
+  
+      
+      .button-clients button {
+        width: 40%;
+      }
+
+      .call-button-form{
+        justify-content: left;
+        margin-left: 60px;
+      }
+  
+    .call-button-form .button{
+        width: 30%;
+      }
+  
+      .contact-footer {
+        margin-top: 20px;
+      }
+    
+  }
+  
+  @media screen and (min-width: 734px) and (max-width: 767px) {
+ 
+      .contact-info {
+        margin: 40px;
+      }
+  
+      .contact-info h1 {
+        margin-bottom: 0px;
+      }
+      .contact-phone-email {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 0px;
+      }
+  
+      .contact-info p {
+        margin: 0px;
+        font-size: 1.4rem;
+      }
+  
+      .contact-phone {
+        flex-direction: column;
+      }
+  
+      .contact-email {
+        flex-direction: column;
+      }
+      .contact-image {
+        margin: 0px 0 0 0;
+      }
+
+       .contact-quote {
+         width: 250%;
+         height: 250%;
+       }
+  
+      .contact-quote-image {
+        width: 40%;
+      }
+  
+      .button-clients button {
+        width: 30%;
+      }
+
+      .call-button-form{
+        justify-content: left;
+        margin-left: 60px;
+      }
+  
+    .call-button-form .button{
+        width: 30%;
+      }
+
+      .contact-footer {
+        margin-top: 20px;
+      }
+    
+  }
+  
+  @media screen and (min-width: 684px) and (max-width: 733px) {
+    
+      .contact-info {
+        margin: 40px;
+      }
+  
+      .contact-info h1 {
+        margin-bottom: 0px;
+      }
+  
+      .contact-phone-email {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 0px;
+      }
+  
+      .contact-info p {
+        margin: 0px;
+        font-size: 1.4rem;
+        margin-bottom: 0px;
+      }
+     
+      .contact-phone {
+        flex-direction: column;
+        margin-bottom: 0px;
+      }
+  
+      .contact-quote-image {
+        width: 40%;
+      }
+  
+      .contact-email {
+        flex-direction: column;
+        margin-bottom: 0px;
+      }
+     
+      .button-clients button {
+        width: 30%;
+      }
+
+    .call-button-form{
+        justify-content: left;
+        margin-left: 60px;
+      }
+  
+    .call-button-form .button{
+        width: 30%;
+      }
+      
+       .contact-footer {
+        margin-top: 20px;
+      }
+    } 
+  
+  
+ @media screen and (min-width: 667px) and (max-width: 683px) {
+  
+      .contact-info {
+        margin: 40px;
+      }
+  
+      .contact-info h1 {
+        margin-bottom: 0px;
+      }
+  
+      .contact-phone-email {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 0px;
+      }
+  
+      .contact-info p {
+        margin: 0px;
+        font-size: 1.4rem;
+        margin-bottom: 0px;
+      }
+  
+     
+      .contact-phone {
+        flex-direction: column;
+        margin-bottom: 0px;
+      }
+  
+      .contact-email {
+        flex-direction: column;
+        margin-bottom: 0px;
+      }
+     
+      .button-clients button {
+        width: 30%;
+      }
+  
+      .call-button-form{
+        justify-content: left;
+        margin-left: 60px;
+      }
+  
+    .call-button-form .button{
+        width: 30%;
+      }
+      
+      .contact-footer {
+        margin-top: 20px;
+      }
+    }
+ 
+  
+   @media screen and (min-width: 412px) and (max-width: 666px) {
+    
+    .contact-info {
+      margin: 40px;
+    }
+
+      .contact-footer {
+        margin-top: 20px;
+      }
+      .contact-quote-image {
+        width: 60%;
+      }
+
+      .call-button-form{
+        justify-content: left;
+        margin-left: 60px;
+      }
+  
+    .call-button-form .button{
+        width: 65%;
+      }
+      
+    .contact-form {
+        margin-bottom: -80px;
+      }  
+    }
+  
+  
+   @media screen and (min-width: 375px) and (max-width: 411px) {
+   
+    .contact-info {
+      margin: 40px;
+    }
+
+    .contact-footer {
+        margin-top: 20px;
+      }
+    .contact-quote-image {
+        width: 60%;
+      }
+
+    .contact-form {
+      margin-bottom: -80px;
+    }  
+
+    .call-button-form{
+        justify-content: left;
+        margin-left: 60px;
+      }
+  
+    .call-button-form .button{
+        width: 65%;
+      }
+    
+  }

@@ -1,0 +1,91 @@
+.writings-main{
+    background: #FFF0F3;
+    padding: 40px;
+    font-size: 1.2rem;
+    font-family: "Barlow Condensed", sans-serif;
+}
+
+.drawing-home {
+    justify-content: center;
+    display: flex;
+    align-items: center;    
+}
+
+.drawing-home-bottom {
+    justify-content: center;
+    display: flex;
+    align-items: center;   
+}
+
+.writing-sessions-image{
+    width: 100%;
+    height: 34vw;
+}
+
+ .writings-drawing-image {
+   rotate: 90deg;
+   width: 600px;
+   margin-top: -80px;
+   margin-bottom: -380px;
+ }
+
+ .writings-drawing-image-bottom {
+    rotate: 270deg;
+    width: 600px;
+    margin-top: -400px;    
+    margin-bottom: -90px;
+}
+
+
+@media screen and (min-width: 375px) and (max-width: 666px) {
+   .writings-drawing-image {
+    width: 160px;
+    height: 340px;
+    margin-top: 10px;
+     }
+     
+     .writings-drawing-image-bottom {
+        height: 220px;
+    margin-top: -100px;
+    margin-bottom: -20px;        
+     }
+}
+
+@media screen and (min-width: 667px) and (max-width: 767px) {
+   .writings-drawing-image {
+      width: 400px;
+      margin-top: 0px;
+   }
+
+   .writings-drawing-image-bottom {
+      width: 400px;
+      margin-top: -280px;
+      margin-bottom: -120px;
+   }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  
+   .writings-drawing-image{
+      width: 400px;
+      margin-bottom: -320px;
+      margin-top: -60px;   }
+
+   .writings-drawing-image-bottom {
+      width: 400px;
+      margin-top: -240px;
+      margin-bottom: -60px;   }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1025px) {
+   .writings-drawing-image{
+      width: 500px;
+      margin-bottom: -320px;
+   }
+
+   .writings-drawing-image-bottom {
+      width: 500px;
+      margin-top: -320px;
+      margin-bottom: -60px;
+   }
+}

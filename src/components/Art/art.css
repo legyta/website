@@ -1,0 +1,80 @@
+.art-main{
+    background: #FFF0F3;
+    padding: 40px;
+    font-size: 1.2rem;
+    font-family: "Barlow Condensed", sans-serif;
+}
+
+.art-sessions-image{
+    width: 100%;
+    height: 34vw;
+}
+
+.art-drawing-image {
+    rotate: 90deg;
+    width: 600px;
+    margin-top: -80px;
+    margin-bottom: -380px;
+  }
+ 
+  .art-drawing-image-bottom {
+     rotate: 270deg;
+     width: 600px;
+     margin-top: -400px;    
+     margin-bottom: -90px;
+ }
+ 
+@media screen and (min-width: 375px) and (max-width: 666px) {
+    .art-drawing-image {
+     width: 160px;
+     height: 340px;
+     margin-top: 10px;
+   }
+      
+   .art-drawing-image-bottom {
+         height: 220px;
+     margin-top: -100px;
+     margin-bottom: -20px;        
+   }
+ }
+ 
+ @media screen and (min-width: 667px) and (max-width: 767px) {
+    .art-drawing-image {
+       width: 400px;
+       margin-top: 0px;
+    }
+ 
+    .art-drawing-image-bottom {
+       width: 400px;
+       margin-top: -280px;
+       margin-bottom: -120px;
+    }
+ }
+ 
+ @media screen and (min-width: 768px) and (max-width: 1023px) {
+   
+    .art-drawing-image{
+       width: 400px;
+       margin-bottom: -320px;
+       margin-top: -60px; 
+   }
+ 
+    .art-drawing-image-bottom {
+       width: 400px;
+       margin-top: -240px;
+       margin-bottom: -60px;   
+   }
+ }
+ 
+ @media screen and (min-width: 1024px) and (max-width: 1025px) {
+    .art-drawing-image{
+       width: 500px;
+       margin-bottom: -320px;
+    }
+ 
+    .art-drawing-image-bottom {
+       width: 500px;
+       margin-top: -320px;
+       margin-bottom: -60px;
+    }
+ }

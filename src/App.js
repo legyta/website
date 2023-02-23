@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Switch, Route } from "react-router-dom";
+import HomePage from "./components/HomePage/HomePage";
+import WomenSessions from "./components/WomenSessions/WomenSessions";
+import Art from "./components/Art/Art";
+import Writings from "./components/Writings/Writings";
+import Reiki from "./components/Reiki/Reiki";
+import Contact from "./components/Contact/Contact";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Switch>
+        <Route path exact="./home" component={HomePage} />
+        <Route path="/women-sessions" component={WomenSessions} />
+        <Route path="/art" component={Art} />
+        <Route path="/writings" component={Writings} />
+        <Route path="/reiki" component={Reiki} />
+        <Route path="/contact" component={Contact} />
+      </Switch>
     </div>
   );
 }

@@ -1,0 +1,179 @@
+.women-sessions-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    font-size: 1.2rem;
+    font-family: "Barlow Condensed", sans-serif;
+    background: #FFF0F3;  
+    align-items: center;
+    
+ }
+
+ .women-sessions-image{
+    width: 100%;
+    height: 34vw;
+ }
+
+ .women-drawing-image{
+   rotate: 90deg;
+   width: 600px;
+   margin-top: -80px;
+   margin-bottom: -380px;
+ }
+
+ .women-circle-section {
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    font-family: "Barlow Condensed", sans-serif;
+    z-index: 1;
+ }
+
+ .women-circle-photo{
+    width: 30vw;
+    height: 40vw;
+    border-radius: 100%;
+    margin-left: 60px;
+    margin-right: 10px;
+ }
+
+ .women-circle-description {
+    width: 60vw;
+    margin-left: 40px;
+ }
+
+ .women-circle-image {    
+    display: flex;
+    justify-content: left;
+    margin-top: 40px;
+ }
+
+ .calendar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    font-size: 1.2rem;
+    font-family: "Barlow Condensed", sans-serif;
+ }
+
+ .circle-button-form {  
+   position: absolute;
+   z-index: 1;
+ }
+
+
+ .women-drawing-image-bottom {
+   margin-top: -340px;    
+   margin-bottom: -90px;
+   rotate: 270deg;
+   width: 600px;
+}
+
+ @media screen and (min-width: 375px) and (max-width: 666px) {
+
+   .women-circle-section {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+   }
+
+   .women-circle-image{
+        margin-bottom: 40px;
+   }
+
+
+   .women-drawing-image{
+      rotate: 90deg;
+      width: 160px;
+    height: 340px;
+    margin-top: 20px;
+    margin-bottom: -340px;
+   }
+
+      .women-drawing-image-bottom {
+      height: 220px;
+      rotate: 270deg;
+      width: 600px;
+      margin-top: 0px;
+      margin-bottom: -20px;
+   }
+
+   .women-circle-photo{
+      margin: 0;
+   }
+
+   .women-circle-description{
+      padding: 0;
+      margin: 0;
+      width: 100%;
+      margin-top: 20px;
+   }
+ }
+
+ @media screen and (min-width: 667px) and (max-width: 767px)  {
+
+   .women-drawing-image {
+      margin-top: 20px;
+    margin-bottom: -360px;
+    width: 400px;
+   }
+
+   .women-drawing-image-bottom {
+      rotate: 270deg;
+      width: 400px;
+      margin-top: -120px;
+      margin-bottom: -80px;
+   }
+
+   .women-circle-description{
+      width: 100%;
+      margin-right: 40px;
+   }
+
+   .women-sessions-main{
+      padding: 0;
+   }
+
+   .home-intro-first{
+      padding: 40px;
+   }
+ }
+ 
+ @media screen and (min-width: 768px) and (max-width: 1023px) {
+
+   .women-drawing-image{
+      margin-bottom: -320px;
+    margin-top: -60px;
+    width: 400px;
+   }
+
+   .women-drawing-image-bottom {
+      width: 400px;
+      margin-top: -140px;
+      margin-bottom: -60px;
+   }
+
+   .women-circle-description {
+      margin-left: 40px;
+      width: 50vw;   
+   }
+ }
+
+ @media screen and (min-width: 1024px) and (max-width: 1025px) {
+   .women-circle-description {
+      margin-left: 40px;
+      width: 50vw;   
+   }
+
+   .women-drawing-image-bottom{
+      width: 500px;
+      margin-top: -240px;
+    margin-bottom: -60px;
+   }
+ }

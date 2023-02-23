@@ -1,0 +1,138 @@
+.home-intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    font-size: 1.2rem;
+    font-family: "Barlow Condensed", sans-serif;
+    background: #FFF0F3;
+ }
+
+ .home-intro-first {
+   z-index: 1;
+ }
+
+ .drawing-image {
+   rotate: 90deg;
+   width: 600px;
+   margin-top: -80px;
+   margin-bottom: -380px;
+ }
+
+ .drawing-image-bottom {
+    rotate: 270deg;
+    width: 600px;
+    margin-top: -400px;    
+    margin-bottom: -90px;
+}
+
+ .home-image{
+    width: 100%;
+    background: #FFF0F3;
+}
+
+.quote {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center; 
+    z-index: 1;
+}
+
+@media screen and (min-width: 375px) and (max-width: 666px) {
+   .home-intro-first{
+      margin-top: 320px;
+   }
+   
+   .drawing-image {
+        width: 160px;
+        height: 340px;
+        margin-top: 10px;
+     }
+
+     .drawing-home {
+      margin-top: -110px;
+      margin-bottom: -140px;
+     }
+     
+     .drawing-image-bottom {
+        height: 220px;
+        margin-top: -100px ;
+        margin-bottom: -20px ;           
+     }
+
+     .drawing-home-bottom {
+        margin-top: -10px;
+        margin-bottom: -10px;
+        width: 100%;
+     }
+
+     .quote {
+      margin-top: -120px;
+         }
+}
+
+@media screen and (min-width: 667px) and (max-width: 767px) {
+   .home-intro {
+      margin-top: -100px;
+   }
+   .home-intro-first{
+      margin-top: 260px;
+   }
+   .drawing-image {
+      width: 400px;
+      margin-top: 80px;
+   }
+
+   .drawing-home {
+      margin-top: -40px;
+    margin-bottom: -180px;
+   }
+
+   .drawing-image-bottom {
+      width: 400px;
+      margin-top: 80px;
+    margin-bottom: -120px;
+   }
+
+   .drawing-home-bottom {
+      margin-bottom: 60px;
+   }
+
+   .quote {
+      margin-bottom: -320px;
+       }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .home-intro-first {
+   margin-top: 120px;
+  }
+  
+   .drawing-image{
+      width: 400px;
+   }
+
+   .drawing-home {
+      margin-bottom: -40px;
+   }
+
+   .drawing-image-bottom {
+      width: 400px;
+      margin-top: -240px;
+      margin-bottom: -60px;
+   }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1025px) {
+   .drawing-image{
+      width: 500px;
+      margin-bottom: -320px;
+   }
+
+   .drawing-image-bottom {
+      width: 500px;
+      margin-top: -320px;
+      margin-bottom: -60px;
+   }
+}

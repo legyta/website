@@ -1,0 +1,156 @@
+
+footer {
+    height: 8vw;
+    display: flex;
+    align-items: center;
+    background-color: #800F2F ;
+  }
+  
+  footer p {
+    color: white;
+    padding-left: 10%;
+    padding-left: 10%;
+    width: 90%;
+    margin-right: -160px;
+  }
+
+  footer a {
+    z-index: 1;
+  }
+  
+  footer span {
+    color: white;
+    font-size: 1rem;
+    padding-left: 10%;
+    padding-top: 20px;
+    padding-right: 5%;
+  }
+
+  .paypal-logo {
+    width: 15%;
+
+  }
+
+  .a{
+    width: 20%;
+  }
+
+  @media screen and (min-width: 375px) and (max-width: 411px) {
+    footer {
+      height: 16vw;
+    }
+
+    footer p {
+      width: 340%;    
+    }
+
+    .paypal-logo {
+      width: 35%;
+      margin-left: 160px;
+    }
+
+    footer span {
+      padding-right: 5%;
+    }
+ }
+
+  @media screen and (min-width: 412px) and (max-width: 666px) {
+    footer {
+      height: 16vw;
+    }
+
+    .paypal-logo {
+      width: 40%;
+      margin-left: 130px;
+    }
+
+    footer p {
+      width: 460%;
+      font-size: 1.2rem;    
+    }
+
+    footer span {
+      padding-right: 5%;
+    }
+  }
+
+  @media screen and (min-width: 667px) and (max-width: 683px) {
+
+    footer p {
+      width: 600%;
+      font-size: 1.2rem;
+    }
+
+    .paypal-logo {
+      width: 40%;
+      margin-left: 100px;
+    }
+
+    footer span {
+      padding-right: 5%;
+    }
+  }
+
+  @media screen and (min-width: 684px) and (max-width: 733px) {
+    footer p {
+      width: 550%;
+      font-size: 1.2rem;
+    }
+
+    .paypal-logo {
+      width: 43%;
+    margin-left: 110px;
+    }
+
+    footer span {
+      padding-right: 5%;
+    }
+  }
+
+  @media screen and (min-width: 734px) and (max-width: 767px) {
+    footer p {
+      width: 550%;
+      font-size: 1.2rem;
+    }
+
+    .paypal-logo {
+      width: 43%;
+    margin-left: 60px;
+    }
+
+    footer span {
+      padding-right: 5%;
+    }
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    
+    footer p {
+      width: 320%;
+      font-size: 1.2rem;
+    }
+
+    .paypal-logo{
+      width: 33%;
+      margin-left: 120px;
+    }
+
+    footer span {
+      padding-right: 5%;
+    }
+  }
+
+  @media screen and (min-width: 1024px) and (max-width: 1025px) {
+    footer p {
+      width: 160%;
+      font-size: 1.2rem;
+    }
+    .paypal-logo{
+      width: 25%;
+      margin-left: 90px;
+    }
+
+    footer span {
+      padding-right: 5%;
+    }
+  }
