@@ -1,11 +1,11 @@
 import React from "react";
 import { Switch, Route } from "react-router-dom";
-import HomePage from "./components/HomePage/HomePage";
-import WomenSessions from "./components/WomenSessions/WomenSessions";
-import Art from "./components/Art/Art";
-import Writings from "./components/Writings/Writings";
-import Reiki from "./components/Reiki/Reiki";
-import Contact from "./components/Contact/Contact";
+import HomePage from "./HomePage/HomePage";
+import WomenSessions from "./WomenSessions/WomenSessions";
+import Art from "./Art/Art";
+import Writings from "./Writings/Writings";
+import Reiki from "./Reiki/Reiki";
+import Contact from "./Contact/Contact";
 
 function App() {
   return (
