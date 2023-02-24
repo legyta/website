@@ -11,7 +11,11 @@ function App() {
   return (
     <div className="App">
       <Switch>
-        <Route path exact="./home" component={HomePage} />
+        <Route
+          path
+          exact="/{https://legyta.github.io/website/}"
+          component={HomePage}
+        />
         <Route path="/women-sessions" component={WomenSessions} />
         <Route path="/art" component={Art} />
         <Route path="/writings" component={Writings} />
