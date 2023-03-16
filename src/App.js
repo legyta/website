@@ -1,5 +1,5 @@
 import React from "react";
-import { Switch, Route, BrowserRouter } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import HomePage from "./HomePage/HomePage";
 import WomenSessions from "./WomenSessions/WomenSessions";
 import Art from "./Art/Art";
@@ -10,16 +10,14 @@ import Contact from "./Contact/Contact";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
-        <Switch>
-          <Route path exact="./home" component={HomePage} />
-          <Route path="/women-sessions" component={WomenSessions} />
-          <Route path="/art" component={Art} />
-          <Route path="/writings" component={Writings} />
-          <Route path="/reiki" component={Reiki} />
-          <Route path="/contact" component={Contact} />
-        </Switch>
-      </BrowserRouter>
+      <Routes>
+        <Route exact path="/home" element={<HomePage />} />
+        <Route path="/women-sessions" element={<WomenSessions />} />
+        <Route path="/art" element={<Art />} />
+        <Route path="/writings" element={<Writings />} />
+        <Route path="/reiki" element={<Reiki />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
     </div>
   );
 }
