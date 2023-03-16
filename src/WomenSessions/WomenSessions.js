@@ -60,7 +60,7 @@ function WomenSessions() {
             </ul>{" "}
             <div className="circle-button-form">
               <a
-                href="https://calendly.com/d/zy8-w2r-mk9/women-circle"
+                href="https://doodle.com/meeting/participate/id/dJ8JlR9a"
                 target="_blank"
                 rel="noreferrer"
               >
