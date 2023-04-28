@@ -36,7 +36,8 @@ function WomenSessions() {
           I am reading, thinking about and attending women related healing and
           empowerment topics and activities. <br></br>
           <br></br>I have already ran women circles myself too, and want to
-          continue this work in person and online.
+          continue this work in person and online. I am holding the women
+          circles in English, Spanish, Italian or Lithuanian languages.
         </p>
 
         <div className="women-circle-section">

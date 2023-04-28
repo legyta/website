@@ -27,7 +27,7 @@ function HomePage() {
             bring us.
           </p>
           <p>
-            So far, it has been a journey brining into the surface all the
+            So far, it has been a journey bringing into the surface all the
             potential we hold inside. Many connections, experiences and growth
             which I am so grateful for.{" "}
           </p>
