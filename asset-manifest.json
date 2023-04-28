@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.93fe8b35.css",
-    "main.js": "/website/static/js/main.ab08de93.js",
-    "static/media/home-page.jpg": "/website/static/media/home-page.a5b0021da791b864170c.jpg",
-    "static/media/women-sessions.jpg": "/website/static/media/women-sessions.46f71237b7f01398f941.jpg",
-    "static/media/art.jpg": "/website/static/media/art.42427e47bc8d718f6629.jpg",
-    "static/media/women-circle.jpg": "/website/static/media/women-circle.8b2c07690b18e3e4d869.jpg",
-    "static/media/writings_image.jpg": "/website/static/media/writings_image.8d00c37816479db78def.jpg",
-    "static/media/contact.jpg": "/website/static/media/contact.50e4099d0bfccb516714.jpg",
-    "static/media/reiki.jpg": "/website/static/media/reiki.1b5d89a658ba05007dd7.jpg",
-    "static/media/paypal_logo.png": "/website/static/media/paypal_logo.52ffbc3b582aed853199.png",
-    "static/media/drawing.svg": "/website/static/media/drawing.58fa7d37327d0e4c2312ddcb039fd1a1.svg",
-    "index.html": "/website/index.html",
-    "main.93fe8b35.css.map": "/website/static/css/main.93fe8b35.css.map",
-    "main.ab08de93.js.map": "/website/static/js/main.ab08de93.js.map"
+    "main.css": "/static/css/main.04578d9d.css",
+    "main.js": "/static/js/main.8680dd2e.js",
+    "static/media/home-page.jpg": "/static/media/home-page.a5b0021da791b864170c.jpg",
+    "static/media/women-sessions.jpg": "/static/media/women-sessions.46f71237b7f01398f941.jpg",
+    "static/media/art.jpg": "/static/media/art.42427e47bc8d718f6629.jpg",
+    "static/media/women-circle.jpg": "/static/media/women-circle.8b2c07690b18e3e4d869.jpg",
+    "static/media/writings_image.jpg": "/static/media/writings_image.8d00c37816479db78def.jpg",
+    "static/media/contact.jpg": "/static/media/contact.50e4099d0bfccb516714.jpg",
+    "static/media/reiki.jpg": "/static/media/reiki.1b5d89a658ba05007dd7.jpg",
+    "static/media/paypal_logo.png": "/static/media/paypal_logo.52ffbc3b582aed853199.png",
+    "static/media/drawing.svg": "/static/media/drawing.58fa7d37327d0e4c2312ddcb039fd1a1.svg",
+    "index.html": "/index.html",
+    "main.04578d9d.css.map": "/static/css/main.04578d9d.css.map",
+    "main.8680dd2e.js.map": "/static/js/main.8680dd2e.js.map"
   },
   "entrypoints": [
-    "static/css/main.93fe8b35.css",
-    "static/js/main.ab08de93.js"
+    "static/css/main.04578d9d.css",
+    "static/js/main.8680dd2e.js"
   ]
 }
