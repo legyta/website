@@ -10,7 +10,7 @@ import Reiki from "./Reiki/Reiki";
 import Contact from "./Contact/Contact";
 
 ReactDOM.render(
-  <BrowserRouter>
+  <BrowserRouter basename="/">
     <Routes>
       <Route index path="/" element={<HomePage />} />
       <Route path="/women-sessions" element={<WomenSessions />} />
