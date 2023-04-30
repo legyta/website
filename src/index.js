@@ -12,12 +12,12 @@ import Contact from "./Contact/Contact";
 ReactDOM.render(
   <BrowserRouter>
     <Routes>
-      <Route index path="/" element={<HomePage />} />
-      <Route path="/women-sessions" element={<WomenSessions />} />
-      <Route path="/art" element={<Art />} />
-      <Route path="/writings" element={<Writings />} />
-      <Route path="/reiki" element={<Reiki />} />
-      <Route path="/contact" element={<Contact />} />
+      <Route index path="/home" element={<HomePage />} />
+      <Route path="/home/women-sessions" element={<WomenSessions />} />
+      <Route path="/home/art" element={<Art />} />
+      <Route path="/home/writings" element={<Writings />} />
+      <Route path="/home/reiki" element={<Reiki />} />
+      <Route path="/home/contact" element={<Contact />} />
     </Routes>
   </BrowserRouter>,
   document.getElementById("root")

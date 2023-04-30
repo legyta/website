@@ -10,7 +10,7 @@ import Circle from "./Circle";
 function HomePage() {
   return (
     <div>
-      <Link to="home"></Link>
+      <Link to="/home"></Link>
       <NavBar />
       <div className="home-image">
         <img src={homePhoto} alt="home" className="home-image" />
