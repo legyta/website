@@ -10,6 +10,7 @@ const Footer = () => {
       <a
         href="https://www.paypal.me/ligitaMontvilaite?locale.x=en_GB"
         target="_blank"
+        rel="noreferrer"
       >
         <img src={paypal} alt="paypal" className="paypal-logo"></img>
       </a>
