@@ -15,7 +15,7 @@ function WomenSessions() {
 
   return (
     <div>
-      <Link to="/home/women-sessions"></Link>
+      <Link to="/women-sessions"></Link>
       <NavBar />
       <div className="women-sessions-image">
         <img
