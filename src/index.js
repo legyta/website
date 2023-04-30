@@ -13,11 +13,11 @@ ReactDOM.render(
   <BrowserRouter>
     <Routes>
       <Route index path="/" element={<HomePage />} />
-      {/* <Route path="/women-sessions" element={<WomenSessions />} />
+      <Route path="/women-sessions" element={<WomenSessions />} />
       <Route path="/art" element={<Art />} />
       <Route path="/writings" element={<Writings />} />
       <Route path="/reiki" element={<Reiki />} />
-      <Route path="/contact" element={<Contact />} /> */}
+      <Route path="/contact" element={<Contact />} />
     </Routes>
   </BrowserRouter>,
   document.getElementById("root")
