@@ -1,7 +1,7 @@
 {
   "name": "website",
   "version": "0.1.0",
-  "homepage": "https://legyta.github.io/",
+  "homepage": "https://legyta.github.io/website",
   "engines": {
     "node": "19.x",
     "yarn": "1.x"
