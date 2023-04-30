@@ -8,17 +8,19 @@ import Art from "./Art/Art";
 import Writings from "./Writings/Writings";
 import Reiki from "./Reiki/Reiki";
 import Contact from "./Contact/Contact";
+import App from "./App";
 
 ReactDOM.render(
   <BrowserRouter>
-    <Routes>
+    <App />
+    {/* <Routes>
       <Route index path="/" element={<HomePage />} />
       <Route path="/women-sessions" element={<WomenSessions />} />
       <Route path="/art" element={<Art />} />
       <Route path="/writings" element={<Writings />} />
       <Route path="/reiki" element={<Reiki />} />
       <Route path="/contact" element={<Contact />} />
-    </Routes>
+    </Routes> */}
   </BrowserRouter>,
   document.getElementById("root")
 );
