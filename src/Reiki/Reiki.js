@@ -4,7 +4,7 @@ import NavBar from "../NavBar/NavBar";
 import Footer from "../Footer/Footer";
 import reikiPhoto from "./reiki.jpg";
 import "./reiki.css";
-import drawing from "../HomePage/drawing.svg";
+import drawing from "../HomePage/drawing-cropped.svg";
 import "../HomePage/homepage.css";
 
 function Reiki() {
@@ -17,7 +17,7 @@ function Reiki() {
       </div>
       <div className="reiki-intro">
         <div className="drawing-home">
-          <img src={drawing} alt="drawing" className="reiki-drawing-image" />
+          <img src={drawing} alt="drawing" className="drawing-image" />
         </div>
         <div className="home-intro-first">
           <p>
@@ -28,7 +28,7 @@ function Reiki() {
             sessions in person. Contact me if you would like to receive it.{" "}
           </p>
         </div>
-        <div className="drawing-home-bottom">
+        <div className="drawing-home-bottom-reiki">
           <img
             src={drawing}
             alt="drawing"

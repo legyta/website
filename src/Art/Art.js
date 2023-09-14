@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import Footer from "../Footer/Footer";
 import NavBar from "../NavBar/NavBar";
 import "./art.css";
-import drawing from "../HomePage/drawing.svg";
+import drawing from "../HomePage/drawing-cropped.svg";
 import art from "./art.jpg";
 import "../HomePage/homepage.css";
 
@@ -17,7 +17,7 @@ function Art() {
       </div>
       <div className="art-main">
         <div className="drawing-home">
-          <img src={drawing} alt="drawing" className="art-drawing-image" />
+          <img src={drawing} alt="drawing" className="drawing-image" />
         </div>
         <div className="home-intro-first">
           <p>
@@ -27,7 +27,7 @@ function Art() {
             creativity.
           </p>
         </div>
-        <div className="drawing-home-bottom">
+        <div className="drawing-home-bottom-art">
           <img
             src={drawing}
             alt="drawing"

@@ -4,7 +4,8 @@ import NavBar from "../NavBar/NavBar";
 import Footer from "../Footer/Footer";
 import "./homepage.css";
 import homePhoto from "./home-page.jpg";
-import drawing from "./drawing.svg";
+// import drawing from "./drawing.svg";
+import drawing from "./drawing-cropped.svg";
 import Circle from "./Circle";
 
 function HomePage() {

@@ -11,7 +11,7 @@
     align-items: center;    
 }
 
-.drawing-home-bottom {
+.drawing-home-bottom-writings {
     justify-content: center;
     display: flex;
     align-items: center;   
@@ -31,11 +31,32 @@
 
  .writings-drawing-image-bottom {
     rotate: 270deg;
-    width: 600px;
-    margin-top: -400px;    
-    margin-bottom: -90px;
+    width: 100px;
 }
 
+
+
+@media screen and (min-width: 280px) and (max-width: 358px) {
+   .writings-drawing-image-bottom {
+      width: 30px;
+   }
+
+   .drawing-home-bottom-writings{
+      margin-top: -40px;
+      margin-bottom: -80px;
+     }
+}
+
+@media screen and (min-width: 359px) and (max-width: 374px) {
+  .drawing-home-bottom-writings{
+   margin-top: -60px;
+   margin-bottom: -100px;
+  }
+
+  .writings-drawing-image-bottom {
+   width: 50px;
+}
+}
 
 @media screen and (min-width: 375px) and (max-width: 666px) {
    .writings-drawing-image {
@@ -46,8 +67,8 @@
      
      .writings-drawing-image-bottom {
         height: 220px;
-    margin-top: -100px;
-    margin-bottom: -20px;        
+    margin-top: -60px;
+    margin-bottom: -80px;        
      }
 }
 
@@ -58,9 +79,9 @@
    }
 
    .writings-drawing-image-bottom {
-      width: 400px;
-      margin-top: -280px;
-      margin-bottom: -120px;
+      width: 80px;
+      margin-top: -180px;
+      margin-bottom: -180px;
    }
 }
 
@@ -72,20 +93,30 @@
       margin-top: -60px;   }
 
    .writings-drawing-image-bottom {
-      width: 400px;
-      margin-top: -240px;
-      margin-bottom: -60px;   }
+      width: 80px;
+      margin-top: -140px;
+      margin-bottom: -160px;   }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1025px) {
+@media screen and (min-width: 1024px) and (max-width: 2200px) {
    .writings-drawing-image{
       width: 500px;
       margin-bottom: -320px;
    }
 
    .writings-drawing-image-bottom {
-      width: 500px;
-      margin-top: -320px;
-      margin-bottom: -60px;
+      width: 100px;
+      margin-top: -120px;
+      margin-bottom: -180px;
+   }
+
+   .drawing-home {
+      margin-top: -180px;
+      margin-bottom: -140px;
+   }
+
+   .drawing-home-bottom-wrtings {
+      margin-top: -140px;
+      margin-bottom: -160px;
    }
 }

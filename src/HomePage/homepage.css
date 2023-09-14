@@ -7,6 +7,7 @@
     font-size: 1.2rem;
     font-family: "Barlow Condensed", sans-serif;
     background: #FFF0F3;
+    
  }
 
  .home-intro-first {
@@ -15,16 +16,12 @@
 
  .drawing-image {
    rotate: 90deg;
-   width: 600px;
-   margin-top: -80px;
-   margin-bottom: -380px;
+   width: 100px;
  }
 
  .drawing-image-bottom {
     rotate: 270deg;
-    width: 600px;
-    margin-top: -400px;    
-    margin-bottom: -90px;
+    width: 100px;
 }
 
  .home-image{
@@ -39,15 +36,105 @@
     z-index: 1;
 }
 
+
+@media screen and (min-width: 200px) and (max-width: 279px) {
+   .home-intro-first{
+      margin-top: -20px;
+   } 
+   .drawing-image {
+      width: 80px;
+      height: 170px;
+   }
+
+   .drawing-home {
+      margin-top: -120px;
+     }
+
+     .drawing-image-bottom {
+      height: 120px;
+      margin-top: -100px;
+    margin-bottom: -60px;          
+   }
+
+   .drawing-home-bottom {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      width: 100%;
+   }
+}
+
+@media screen and (min-width: 280px) and (max-width: 281px) {
+   .drawing-image {
+      height: 170px;
+      margin-bottom: -30px;
+      margin-top: -80px;
+   }
+
+   .quote{
+      margin: 5px;
+      margin-top: 70px;
+   }
+
+   .drawing-image-bottom {
+      height: 170px;
+      margin-bottom: -60px;
+      margin-top: -20px;
+   }
+}
+
+
+@media screen and (min-width: 282px) and (max-width: 358px) {
+   .home-intro-first{
+      margin-top: -20px;
+   } 
+   .drawing-image {
+      width: 80px;
+      height: 170px;
+   }
+
+   .drawing-home {
+      margin-top: -120px;
+     }
+
+     .drawing-image-bottom {
+      height: 120px;
+      margin-top: -100px;
+    margin-bottom: -60px;          
+   }
+
+   .drawing-home-bottom {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      width: 100%;
+   }
+}
+
+@media screen and (min-width: 359px) and (max-width: 374px) {
+
+   .drawing-image {
+      width: 50px ;
+      margin-top: -100px;
+      margin-bottom: -80px;
+   }
+
+   .drawing-image-bottom{
+      width: 50px ;
+   }
+
+   .quote{
+      margin: 70px 10px 20px 10px;
+   }
+}
+
 @media screen and (min-width: 375px) and (max-width: 666px) {
    .home-intro-first{
-      margin-top: 320px;
+      margin-top: 40px;
    }
    
    .drawing-image {
-        width: 160px;
+        width: 40px;
         height: 340px;
-        margin-top: 10px;
+        margin-top: -40px;
      }
 
      .drawing-home {
@@ -57,8 +144,8 @@
      
      .drawing-image-bottom {
         height: 220px;
-        margin-top: -100px ;
-        margin-bottom: -20px ;           
+        margin-top: -10px;
+        margin-bottom: -60px;          
      }
 
      .drawing-home-bottom {
@@ -68,7 +155,7 @@
      }
 
      .quote {
-      margin-top: -120px;
+      margin: -120px 10px 0px 10px;
          }
 }
 
@@ -80,19 +167,18 @@
       margin-top: 260px;
    }
    .drawing-image {
-      width: 400px;
-      margin-top: 80px;
+      width: 80px;
+      margin-top: -140px;
    }
 
    .drawing-home {
-      margin-top: -40px;
-    margin-bottom: -180px;
+    margin-bottom: -460px;
    }
 
    .drawing-image-bottom {
-      width: 400px;
-      margin-top: 80px;
-    margin-bottom: -120px;
+      width: 80px;
+      margin-top: 180px;
+    margin-bottom: -180px;
    }
 
    .drawing-home-bottom {
@@ -106,33 +192,46 @@
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .home-intro-first {
-   margin-top: 120px;
+   margin-top: 140px;
+
   }
   
    .drawing-image{
-      width: 400px;
+      width: 80px;
    }
 
    .drawing-home {
-      margin-bottom: -40px;
+      margin-bottom: -280px;
+      margin-top: -160px;
    }
 
    .drawing-image-bottom {
-      width: 400px;
-      margin-top: -240px;
-      margin-bottom: -60px;
+      width: 80px;
+   }
+
+   .drawing-home-bottom{
+      margin-top: -120px;
+      margin-bottom: -160px;
    }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1025px) {
+@media screen and (min-width: 1024px) and (max-width: 2200px) {
    .drawing-image{
-      width: 500px;
-      margin-bottom: -320px;
+      width: 100px;
    }
 
    .drawing-image-bottom {
-      width: 500px;
-      margin-top: -320px;
-      margin-bottom: -60px;
+      width: 100px;
    }
+
+   .drawing-home {
+      margin-top: -180px;
+      margin-bottom: -140px;
+   }
+   
+   .drawing-home-bottom {
+      margin-top: -140px;
+      margin-bottom: -160px;
+   }
+
 }

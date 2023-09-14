@@ -195,6 +195,12 @@
     
   }
   
+  @media screen and (min-width: 912px) and (max-width: 913px){
+    .call-button-form .button{
+      margin-left: 50px;
+    }
+  }
+
   @media screen and (min-width: 768px) and (max-width: 1023px) {
     
     .contact-info {
@@ -217,12 +223,13 @@
   
     .call-button-form .button{
         width: 30%;
+        margin-bottom: 40px;
+        margin-left: 40px;
       }
   
       .contact-footer {
         margin-top: 20px;
       }
-    
   }
   
   @media screen and (min-width: 734px) and (max-width: 767px) {
@@ -393,6 +400,13 @@
   
    @media screen and (min-width: 412px) and (max-width: 666px) {
     
+/* .contact{
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;  
+} */
+
     .contact-info {
       margin: 40px;
     }
@@ -410,8 +424,10 @@
       }
   
     .call-button-form .button{
-        width: 65%;
-        margin-top: 100px;
+        width: 95%;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        margin-left: -20px;
       }
       
     .contact-form {
@@ -447,4 +463,22 @@
         margin-top: 100px;
       }
     
+  }
+
+
+  @media screen and (min-width: 280px) and (max-width: 374px) {
+    .call-button-form{
+      display: flex;
+      justify-content: center;
+      margin-left: -40px;
+    }
+
+    .call-button-form .button{
+      width: 100%;
+      margin-bottom: 40px;
+    }
+
+    .contact-info {
+      margin-top: 40px;
+    }
   }

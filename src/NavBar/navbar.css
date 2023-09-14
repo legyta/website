@@ -197,6 +197,10 @@
         padding: 0.4rem;
         margin-right: 20px;
   }
+
+  ul {
+    margin-right: 20px;
+  }
 }
 
 @media screen and (min-width: 667px) and (max-width: 767px) {
@@ -218,6 +222,32 @@
     font-size: 1.3rem;
     margin-right: 20px;
   }
+}
+
+@media screen and (min-width: 359px) and (max-width: 374px) {
+  .menu-wrap{
+    height: 16vw;
+  }
+
+  .menu-wrap .hamburger {
+    margin-left: 10px;
+    padding: 0px;
+  }
+
+  .menu-wrap .menu > div {
+    width: 85vw;
+    height: 85vw;
+  }
+
+  .menu-wrap .menu > div > div > ul > li > a {
+    font-size: 1.4rem;
+  }
+
+  .menu-wrap .menu > div > div > ul > li {
+    padding: 0.4rem;
+    margin-right: 30px;
+}
+
 }
 
 @media screen and (min-width: 375px) and (max-width: 666px) {
@@ -251,3 +281,53 @@
   }
 }
 
+@media screen and (min-width: 280px) and (max-width: 281px) {
+  .menu-wrap  {
+    height: 20vw;
+  }
+
+  .menu-wrap .hamburger {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding: 0px;
+  }
+
+  .menu-wrap .menu > div {
+    width: 95vw;
+    height: 95vw;
+  }
+
+  .menu-wrap .menu > div > div > ul > li > a {
+    font-size: 1.2rem;
+  }
+
+  .menu-wrap .menu > div > div > ul > li {
+    padding: 0.2rem;
+}
+}
+
+@media screen and (min-width: 282px) and (max-width: 374px) {
+  .menu-wrap  {
+    height: 20vw;
+  }
+
+  .menu-wrap .hamburger {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding: 0px;
+  }
+
+  .menu-wrap .menu > div {
+    width: 95vw;
+    height: 95vw;
+  }
+
+  .menu-wrap .menu > div > div > ul > li > a {
+    font-size: 1.2rem;
+  }
+
+  .menu-wrap .menu > div > div > ul > li {
+    padding: 0.2rem;
+    margin-right: 30px;
+}
+}

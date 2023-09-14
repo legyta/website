@@ -35,6 +35,39 @@ footer {
     width: 20%;
   }
 
+
+
+
+  @media screen and (min-width: 280px) and (max-width: 281px) {
+    footer {
+      height: 16vw;
+      padding: 5px;
+    }
+
+    footer p {
+      font-size: .8rem;
+      width: 340%;
+    }
+    .paypal-logo{
+      margin-left: 160px;
+    }
+  }
+
+  @media screen and (min-width: 359px) and (max-width: 374px) {
+    footer {
+      height: 16vw;
+    }
+    
+    footer p {
+      width: 380%;
+    }
+   
+    .paypal-logo {
+      margin-left: 150px;
+      width: 35%;
+    }
+  }
+
   @media screen and (min-width: 375px) and (max-width: 411px) {
     footer {
       height: 16vw;
@@ -61,7 +94,7 @@ footer {
 
     .paypal-logo {
       width: 40%;
-      margin-left: 130px;
+      margin-left: 140px;
     }
 
     footer p {

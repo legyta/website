@@ -5,7 +5,7 @@ import Footer from "../Footer/Footer";
 import "./womensessions.css";
 import womenCircle from "./women-circle.jpg";
 import womenSessions from "./women-sessions.jpg";
-import drawing from "../HomePage/drawing.svg";
+import drawing from "../HomePage/drawing-cropped.svg";
 import "../HomePage/homepage.css";
 
 function WomenSessions() {
@@ -26,7 +26,7 @@ function WomenSessions() {
       </div>
       <div className="women-sessions-main">
         <div className="drawing-home">
-          <img src={drawing} alt="drawing" className="women-drawing-image" />
+          <img src={drawing} alt="drawing" className="drawing-image" />
         </div>
         <p className="home-intro-first">
           At the end of twenty twenty one, I have consciously started to work
@@ -73,7 +73,7 @@ function WomenSessions() {
             </div>
           </div>
         </div>
-        <div className="drawing-home-bottom">
+        <div className="drawing-home-bottom-women">
           <img
             src={drawing}
             alt="drawing"

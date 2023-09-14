@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import NavBar from "../NavBar/NavBar";
 import "./writings.css";
 import Footer from "../Footer/Footer";
-import drawing from "../HomePage/drawing.svg";
+import drawing from "../HomePage/drawing-cropped.svg";
 import "../HomePage/homepage.css";
 import writing from "./writings_image.jpg";
 
@@ -21,7 +21,7 @@ function Writings() {
       </div>
       <div className="writings-main">
         <div className="drawing-home">
-          <img src={drawing} alt="drawing" className="writings-drawing-image" />
+          <img src={drawing} alt="drawing" className="drawing-image" />
         </div>
         <div className="home-intro-first">
           <p>
@@ -29,7 +29,7 @@ function Writings() {
             time for it arrives. At the moment, I write with pen on paper.
           </p>
         </div>
-        <div className="drawing-home-bottom">
+        <div className="drawing-home-bottom-writings">
           <img
             src={drawing}
             alt="drawing"

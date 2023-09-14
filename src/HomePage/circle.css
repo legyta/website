@@ -155,3 +155,31 @@
     margin-bottom: 180px;
    }
   }
+
+
+@media screen and (min-width: 359px) and (max-width: 374px) {
+    
+   .right-two-circles{
+    width: 26vw;
+    height: 26vw;
+ }
+
+ .left-two-circles{
+    width: 26vw;
+    height:26vw;
+ }
+}
+
+
+
+  @media screen and (min-width: 280px) and (max-width: 281px) {
+    .right-two-circles {
+        width: 32vw;
+        height: 32vw
+    }
+ 
+    .left-two-circles {
+        width: 32vw;
+        height: 32vw
+    }
+ }

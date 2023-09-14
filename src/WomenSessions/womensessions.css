@@ -18,9 +18,7 @@
 
  .women-drawing-image{
    rotate: 90deg;
-   width: 600px;
-   margin-top: -80px;
-   margin-bottom: -380px;
+   width: 100px;
  }
 
  .women-circle-section {
@@ -69,10 +67,77 @@
 
 
  .women-drawing-image-bottom {
-   margin-top: -340px;    
-   margin-bottom: -90px;
    rotate: 270deg;
-   width: 600px;
+   width: 100px;
+}
+
+@media screen and (min-width: 280px) and (max-width: 358px) {
+   .women-circle-section {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+
+   
+   .women-circle-image{
+      margin-bottom: 40px;
+ }
+
+   .women-circle-description{
+   margin: 0px;
+}
+
+   .women-circle-description ul {
+      width: 100%;
+   }
+
+   .women-circle-description ul li{
+      margin-top: 2px;
+   }
+   .women-circle-photo{
+   margin: 0px;
+}
+
+   .circle-button-form {
+      position: inherit;
+      width: 200%;
+      margin-left: -28px;
+   }
+
+   .women-drawing-image-bottom{
+      width: 30px;
+      margin-top: -40px;
+      margin-bottom: -90px;
+   }
+
+}
+
+@media screen and (min-width: 359px) and (max-width: 374px) {
+
+   .women-circle-section {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+
+   .women-circle-image{
+        margin-bottom: 40px;
+   }
+
+   .women-circle-description{
+      margin: 0px;
+   }
+
+   .women-circle-photo{
+      margin: 0px;
+   }
+   .women-drawing-image-bottom{
+      width: 50px;
+      margin-top: 40px;
+      margin-bottom: -90px;
+   }
 }
 
  @media screen and (min-width: 375px) and (max-width: 666px) {
@@ -91,17 +156,13 @@
    .women-drawing-image{
       rotate: 90deg;
       width: 160px;
-    height: 340px;
-    margin-top: 20px;
-    margin-bottom: -340px;
+      height: 340px;
    }
 
-      .women-drawing-image-bottom {
+   .women-drawing-image-bottom {
       height: 220px;
-      rotate: 270deg;
-      width: 600px;
-      margin-top: 0px;
-      margin-bottom: -20px;
+      margin-top: -40px;
+      margin-bottom: -80px
    }
 
    .women-circle-photo{
@@ -113,6 +174,17 @@
       margin: 0;
       width: 100%;
       margin-top: 20px;
+   }
+
+   .women-circle-description {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+
+   .circle-button-form {
+      position: inherit;
    }
  }
 
@@ -126,9 +198,9 @@
 
    .women-drawing-image-bottom {
       rotate: 270deg;
-      width: 400px;
-      margin-top: -120px;
-      margin-bottom: -80px;
+      width: 90px;
+      margin-top: -20px;
+      margin-bottom: -120px;
    }
 
    .women-circle-description{
@@ -154,9 +226,8 @@
    }
 
    .women-drawing-image-bottom {
-      width: 400px;
-      margin-top: -140px;
-      margin-bottom: -60px;
+      width: 80px;
+      margin-bottom: -160px;
    }
 
    .women-circle-description {
@@ -165,15 +236,18 @@
    }
  }
 
- @media screen and (min-width: 1024px) and (max-width: 1025px) {
+ @media screen and (min-width: 1024px) and (max-width: 2200px) {
    .women-circle-description {
       margin-left: 40px;
       width: 50vw;   
    }
 
    .women-drawing-image-bottom{
-      width: 500px;
-      margin-top: -240px;
-    margin-bottom: -60px;
+      width: 100px;
+  
+   }
+
+   .drawing-home-bottom-women {
+      margin-bottom: -160px;
    }
  }
