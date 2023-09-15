@@ -79,10 +79,6 @@
 
 }
 
-@media screen and (min-width: 1601px) {
-   
-  }
-  
   @media screen and (min-width: 1024px) and (max-width: 1025px) {
     .left-two-circles {
         width: 20vw;
@@ -131,8 +127,7 @@
   .middle-one-circle {
     width: 10vw;
     height: 10vw;
-   }
-   
+   }   
   }
   
   @media screen and (min-width: 375px) and (max-width: 666px) {

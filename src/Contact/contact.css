@@ -142,8 +142,6 @@
       }
     
   }
-
-
    
    @media screen and (min-width: 1200px) and (max-width: 1600px) {
     
@@ -191,8 +189,7 @@
       
       .contact-footer {
         margin-top: 20px;
-      }
-    
+      }    
   }
   
   @media screen and (min-width: 912px) and (max-width: 913px){
@@ -232,8 +229,7 @@
       }
   }
   
-  @media screen and (min-width: 734px) and (max-width: 767px) {
- 
+  @media screen and (min-width: 734px) and (max-width: 767px) { 
       .contact-info {
         margin: 40px;
       }
@@ -287,12 +283,10 @@
 
       .contact-footer {
         margin-top: 20px;
-      }
-    
+      }   
   }
   
   @media screen and (min-width: 684px) and (max-width: 733px) {
-    
       .contact-info {
         margin: 40px;
       }
@@ -346,8 +340,7 @@
     } 
   
   
- @media screen and (min-width: 667px) and (max-width: 683px) {
-  
+ @media screen and (min-width: 667px) and (max-width: 683px) { 
       .contact-info {
         margin: 40px;
       }
@@ -367,8 +360,7 @@
         font-size: 1.4rem;
         margin-bottom: 0px;
       }
-  
-     
+      
       .contact-phone {
         flex-direction: column;
         margin-bottom: 0px;
@@ -396,18 +388,9 @@
         margin-top: 20px;
       }
     }
- 
   
    @media screen and (min-width: 412px) and (max-width: 666px) {
-    
-/* .contact{
-  display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;  
-} */
-
-    .contact-info {
+      .contact-info {
       margin: 40px;
     }
 
@@ -436,8 +419,7 @@ align-items: center;
     }
   
   
-   @media screen and (min-width: 375px) and (max-width: 411px) {
-   
+   @media screen and (min-width: 375px) and (max-width: 411px) {   
     .contact-info {
       margin: 40px;
     }
@@ -461,8 +443,7 @@ align-items: center;
     .call-button-form .button{
         width: 65%;
         margin-top: 100px;
-      }
-    
+      }   
   }
 
 

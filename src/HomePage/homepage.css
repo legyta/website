@@ -121,6 +121,10 @@
       width: 50px ;
    }
 
+   .drawing-home-bottom{
+      margin-top: -50px;
+      margin-bottom: -80px;
+   }
    .quote{
       margin: 70px 10px 20px 10px;
    }
@@ -151,7 +155,6 @@
      .drawing-home-bottom {
         margin-top: -10px;
         margin-bottom: -10px;
-        width: 100%;
      }
 
      .quote {
@@ -163,12 +166,17 @@
    .home-intro {
       margin-top: -100px;
    }
+
+   .drawing-image{
+      width: 20px;
+   }
    .home-intro-first{
       margin-top: 260px;
    }
    .drawing-image {
-      width: 80px;
-      margin-top: -140px;
+      width: 60px;
+    margin-top: -20px;
+    margin-bottom: 60px;
    }
 
    .drawing-home {
@@ -176,9 +184,9 @@
    }
 
    .drawing-image-bottom {
-      width: 80px;
-      margin-top: 180px;
-    margin-bottom: -180px;
+      width: 60px;
+      margin-top: 240px;
+      margin-bottom: -180px;
    }
 
    .drawing-home-bottom {
